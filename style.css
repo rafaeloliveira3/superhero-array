@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    padding: 25px;
+    text-align: center;
+}
+ul{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.page-title{
+    font-size: 3.2rem;
+}
+h1{
+    font-size: 1.7rem;
+}
+p{
+    font-size: 1.2rem;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    gap: 15px;
+    height: auto;
+    font-size: 1.4rem;
+    text-align: center;
+    box-shadow: 1px 1px 4px 1px #232553;
+    transition: all .2s;
+}
+.cards:hover{
+    box-shadow: 2px 2px 8px 1px #232553;
+    transform: translateY(-5px);
+}
